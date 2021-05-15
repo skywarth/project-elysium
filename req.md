@@ -5,9 +5,10 @@
 
 ## List of requirements:
 - [Storage solution](#storage)
-- An access manager, versatile and robust. Similar to ACL [1]
+- An [access manager](#access), versatile and robust. Similar to ACL
 - Spider/Crawler crypt
-- Media hub, broadcast
+- Media hub, broadcast (Plex, Kodi, Streamio)
+- Radio, Aircraft signals  
 - External Access Manager (Exposer) and Firewall
 - Counter measures arsenal
 - Getaway/Sandbox device
@@ -18,7 +19,7 @@
 - DNS server
 - [Biometric confirmation unit](#biometric-confirmation-unit) 
 - Possible scenarios (Globals, End of the line, intrusions, Abrupt FIN, physical intervention etc.) Predefined instruction sets.
-
+- Backup tools
 ---
 
 ### <a name="storage"></a>Storage Solution
@@ -30,13 +31,14 @@
 - Method of interaction with the storage solution can be done via several ways:
     1. Local Access
         - FTP/sFTP
-        - Software Interface (NextCloud)
+        - Software Interface (NextCloud, OpenMediaVault)
     2. Remote Access
         - Through [Exposer](#exposer)
     
-- For now, all access requires authentication by standard means.     
+- For now, all access requires authentication by standard means.
+- In the ultimate form, this module should use RAID 10 (RAID 1+0)
 
-### Access Base
+### <a name="access"></a> Access Base
 User roles, role groups, permissions are all defined here. For permission checks (other than biometric confirmation), every module visits Access Base.
 
 - All the data regarding permissions, roles and similar will be retained in a conventional database (SQL based). 
@@ -44,7 +46,7 @@ User roles, role groups, permissions are all defined here. For permission checks
 - Good candidate for API is Lumen. Simple and lightweight. Alternative is NodeJS.
 - If some sort of proper interface is required or advanced capabilities is a must, then Laravel is a good fit. Alternative NodeJS, or some Python framework (Flask ?).
 - The API is expected to be lighting fast since big chunk of actions and functions eventually hit this endpoint. 
-
+- This module is closed to remote access by all means.
 #### Definitions:
 **Permission:** Single instruction that testifies a permit to do an action. Examples: 'Read public file from [Storage](#storage)', 'Edit [Exposer](#exposer) settings'
 
@@ -68,7 +70,25 @@ Example scenario:
 ---
 
 
+### <a name="web-server"></a> Web Server
+This module is responsible for running web applications. The web applications to run cannot be another module's dependency. Think this one as a sandbox web server environment. By default, remote connections are refused as usual.
 
+- Sandbox web server environment
+- Main goal is to equip the master with the capability to test web applications in a wide range of environments.
+- Therefore, this module consists of many devices as a member.
+- Each device is featuring a distinct web server environment. Examples:
+    - **LAMP**: Apache2 + Nginx server with PHP and MySQL installed and ready. Running a common Linux distro (CentOS, Ubuntu etc.)
+    - **MEAN/MEVN/MERN**: CentOS with NodeJS, MongoDB, NPM, Yarn, Gulp.
+    - **WIN**: Windows server with MSSQL installed
+    - **RUBY**: Ruby, Node.js, Yarn, Gem, some Linux distro
+    
+- **[!]** After clean installation, master is tasked with creating an image of the prepared web service device instance. Cloning/Imaging tool candidates:
+    - AOMEI
+    - CloneZilla
+    - Paragon
+    - MondoRescue
+    - Acronis
+    
 
 ### <a name="biometric-confirmation-unit"></a> Biometric Confirmation Unit
 
