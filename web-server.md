@@ -11,10 +11,5 @@ This module is responsible for running web applications. The web applications to
     - **WIN**: Windows server with MSSQL installed
     - **RUBY**: Ruby, Node.js, Yarn, Gem, some Linux distro
 
-- **[!]** After clean installation, master is tasked with creating an image of the prepared web service device instance. Cloning/Imaging tool candidates:
-    - AOMEI
-    - CloneZilla
-    - Paragon
-    - MondoRescue
-    - Acronis
+
     

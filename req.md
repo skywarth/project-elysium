@@ -16,9 +16,10 @@
 - p2p device
 - Telemetry (Physical and virtual), logging
 - Overseer (mainframe), set of rules and actions 
-- DNS server
+- DNS server (pi-hole or dnsmasq)
 - [Biometric confirmation unit](/biometric-confirmation-unit.md) 
 - Possible scenarios (Globals, End of the line, intrusions, Abrupt FIN, physical intervention etc.) Predefined instruction sets.
-- Backup tools
+- [Backup plan](/backup-plan.md)
+- [Connection standards](/connection-standards.md)
 ---
 
