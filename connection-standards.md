@@ -1,1 +1,3 @@
--A remote desktop client with VNC protocol
+- A remote desktop client with VNC protocol
+- SSH
+- FTP/sFTP only for [web-server](/web-server.md)
