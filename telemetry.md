@@ -19,7 +19,7 @@ Telemetry module is responsible for reading various sensors scattered through th
 - Load monitor for each individual device.
 - Probing for nearby WiFi devices (802.11n compliant). Keeping it in a database and building up a acquaintances index. 
 
-
+### Acquiring Logs
 Logs will be delivered via simple API and http request. Security is not of paramount for this endpoint. API only exposes CREATE/STORE methods. INDEX and DESTROY methods won't be available.
 
 #### Virtual - Access Logs
@@ -47,3 +47,7 @@ Logs will be delivered via simple API and http request. Security is not of param
 | device_ecosystem_id | int                              |
 | event_date          | datetime                         |
 | action              | boolean (true for system I/O ON) |
+
+### Acquiring Hardware Load Measures
+
+
