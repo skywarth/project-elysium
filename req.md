@@ -14,7 +14,7 @@
 - Getaway/Sandbox device
 - [Web server](/web-server.md)
 - p2p device
-- Telemetry (Physical and virtual), logging
+- Telemetry (Physical and virtual), logging, probing
 - Overseer (mainframe), set of rules and actions 
 - DNS server (pi-hole or dnsmasq)
 - [Biometric confirmation unit](/biometric-confirmation-unit.md) 
