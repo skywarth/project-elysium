@@ -30,9 +30,10 @@ Given a list of URL addresses, it will crawl the websites for sensible informati
 
 - URL Targets List
   - Expected to be in conventional tabular data formats (CSV, XLS, JSON)
-- S.H.I.T.E point calculator
+- S.H.I.T.E point calculator function
 - A database for holding similarity data
 
+- *Continue from here*
 ---
 
 
