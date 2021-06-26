@@ -23,3 +23,5 @@
 - [Connection standards](/connection-standards.md)
 ---
 
+- **Prometheus** is a great solution for monitoring. Single main instance can collect data from other instances (node_exporter)
+- Later on these could be shown in nice graphics using **Grafana**
