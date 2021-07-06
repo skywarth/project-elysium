@@ -21,7 +21,9 @@
 - Possible scenarios (Globals, End of the line, intrusions, Abrupt FIN, physical intervention etc.) Predefined instruction sets.
 - [Backup plan](/backup-plan.md)
 - [Connection standards](/connection-standards.md)
+- [Router](/router.md)
 ---
 
 - **Prometheus** is a great solution for monitoring. Single main instance can collect data from other instances (node_exporter)
 - Later on these could be shown in nice graphics using **Grafana**
+- Prometheus is incredible tbh

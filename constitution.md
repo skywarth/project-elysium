@@ -1,6 +1,6 @@
 # Constitution
 
-## Core Principles:
+## Core Principles: <a name="core-principles" id="core-principles"></a> 
 
 These core principles are to be followed and practiced in all aspects of the ecosystem. In every single micro-action, decision making, comparison and crisis management, these principles must be honored in the  following order.
 
