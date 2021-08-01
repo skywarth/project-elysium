@@ -9,7 +9,7 @@ User roles, role groups, permissions are all defined here. For permission checks
 - The API is expected to be lighting fast since big chunk of actions and functions eventually hit this endpoint.
 - This module is closed to remote access by all means.
 #### Definitions:
-**Permission:** Single instruction that testifies a permit to do an action. Examples: 'Read public file from [Storage](/storage.md)', 'Edit [Exposer](#exposer) settings'
+**Permission:** Single instruction that testifies a permit to do an action. Examples: 'Read public file from [Storage](/storage/storage.md)', 'Edit [Exposer](#exposer) settings'
 
 **Role:**  Slugs/tags for each user and [module](/req.md#module) in the ecosystem. For the sake of simplicity each user has one role: ```(n)user->(1)role``` . Of course there can be other users or modules with the same role. Example: 'guest','master','local master','telemetry module'. Allowing multiple roles per user is still in consideration.
 

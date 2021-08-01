@@ -19,7 +19,7 @@ This module is expected to be one device. Main purpose is to furnish the system 
 
 *In essence it's just a conventional router hun c'mon*
 
-But since [telemetry](/telemetry.md) is paramount, and privacy section as defined in [constitution](/constitution.md#core-principles) it is not feasible to use conventional router interfaces. Conventional router OS's and interfaces will not suffice the required security, privacy and customization needs. 
+But since [telemetry](/telemetry/telemetry.md) is paramount, and privacy section as defined in [constitution](/constitution/constitution.md#core-principles) it is not feasible to use conventional router interfaces. Conventional router OS's and interfaces will not suffice the required security, privacy and customization needs. 
 
 
 ### OS/Software Candidates:
