@@ -6,7 +6,7 @@
 ## List of requirements:
 - Modules
     - [Storage Unit](/storage.md)
-    - An [access manager](/access-base.md), versatile and robust. Similar to ACL
+    - An [access manager](/access-base/access-base.md), versatile and robust. Similar to ACL
     - Spider/Crawler crypt
     - Media hub(Plex, Kodi, Streamio)
     - Broadcast station (uhf/vhf, maybe using LoRa hat)  
