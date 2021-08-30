@@ -44,4 +44,4 @@
    
 ## Automated backups
 
-1. ### Partial backup
+1. ### Partial backup 

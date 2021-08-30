@@ -24,6 +24,8 @@
     - Intranet Wiki (by DokuWiki)
     - Password vendor. (D.I.Y or BitWarden)
     - Sync server (syncthing)
+    - Search Engine (searx)
+    - OSINT
 
 - Legislation/Canonical
     - [Constitution](/constitution/constitution.md)
