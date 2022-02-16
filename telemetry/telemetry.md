@@ -17,6 +17,7 @@ Telemetry module is responsible for reading various sensors scattered through th
   - Error logs from all modules.
   - Hardware level I/O events.
 - Load monitor for each individual device.
+  - Prometheus exporters. Mainly node_exporter
 - Probing for nearby WiFi devices (802.11n compliant). Keeping it in a database and building up a acquaintances index. 
 
 ### Acquiring Logs
