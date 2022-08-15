@@ -11,7 +11,8 @@
     - Media hub(Plex, Kodi, Streamio)
         - For music: 
             - HiFiBerryOS doesn't support listening from web, yikes.
-            - mopidy, Volumio, GrooveBasin, navidrome (playing on web)
+            - mopidy, Volumio, GrooveBasin
+            - navidrome, Lightweight Music Server (LMS), Subsonic, Airsonic advanced
     - Broadcast station (uhf/vhf, maybe using LoRa hat)  
     - Radio, Aircraft signals receiver  
     - External Access Manager (Exposer) and Firewall
