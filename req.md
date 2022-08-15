@@ -13,6 +13,7 @@
             - HiFiBerryOS doesn't support listening from web, yikes.
             - mopidy, Volumio, GrooveBasin
             - navidrome, Lightweight Music Server (LMS), Subsonic, Airsonic advanced
+            - plex, kodi ?
     - Broadcast station (uhf/vhf, maybe using LoRa hat)  
     - Radio, Aircraft signals receiver  
     - External Access Manager (Exposer) and Firewall
