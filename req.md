@@ -9,7 +9,9 @@
     - An [access manager](/access-base/access-base.md), versatile and robust. Similar to ACL
     - Spider/Crawler crypt
     - Media hub(Plex, Kodi, Streamio)
-        - For music: mopidy, HiFiBerryOS, Volumio, GrooveBasin
+        - For music: 
+            - HiFiBerryOS doesn't support listening from web, yikes.
+            - mopidy, Volumio, GrooveBasin, navidrome (playing on web)
     - Broadcast station (uhf/vhf, maybe using LoRa hat)  
     - Radio, Aircraft signals receiver  
     - External Access Manager (Exposer) and Firewall
